@@ -2,9 +2,6 @@
 
 This notebook contains **11 tasks** centered around **data visualization** using **matplotlib**📊. 
 
-
-For each visualization, instructions are provided describing what customizations must be applied to the visualization in order to pass the provided tests. 
-
 Within the instructions, a saved image of the visualization is displayed. **Your goal is to create a visualization that mirrors the displayed image.**
 > *Please note:* When developing data visualizations, there are frequently judgment calls that must be made about about a number of visual settings. The provided tests in this notebook will assess many of the matplotlib settings that were used to generate the displayed visualization, but not every setting is tested. **For this notebook, and any future assessments, you should be sure to meet the required instructions *exactly*.** Outside of those settings you are free to customize your visualizations however you feel is best.
 
@@ -96,7 +93,7 @@ plot_one_ax.set_ylabel('Episode Count', size=15)
 plot_one_fig.savefig('static/episodes_per_season.png')
 ```
 
-    /var/folders/js/czdv1g1d4877gnqnxm3b1y4m0000gn/T/ipykernel_30008/3056951045.py:9: UserWarning: FixedFormatter should only be used together with FixedLocator
+    /var/folders/js/czdv1g1d4877gnqnxm3b1y4m0000gn/T/ipykernel_30105/3056951045.py:9: UserWarning: FixedFormatter should only be used together with FixedLocator
       plot_one_ax.set_xticklabels([tick for tick in x], size=20)
 
 
@@ -139,7 +136,7 @@ plot_two_fig.savefig('static/director_frequency.png')
 plt.show()
 ```
 
-    /var/folders/js/czdv1g1d4877gnqnxm3b1y4m0000gn/T/ipykernel_30008/3481402958.py:7: UserWarning: FixedFormatter should only be used together with FixedLocator
+    /var/folders/js/czdv1g1d4877gnqnxm3b1y4m0000gn/T/ipykernel_30105/3481402958.py:7: UserWarning: FixedFormatter should only be used together with FixedLocator
       plot_two_ax.set_xticklabels([tick.replace(' ', '\n') for tick in x], size=20)
 
 
